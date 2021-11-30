@@ -1,0 +1,22 @@
+{
+  "name": "zestic/secure-downloads-middleware",
+  "type": "library",
+  "description": "Webonxy GraqhQL middleware",
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.0",
+    "psr/http-server-middleware": "^1.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.0.0",
+    "phpspec/prophecy": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zestic\\Middleware\\": "src/"
+    }
+  }
+}
