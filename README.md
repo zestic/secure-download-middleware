@@ -4,7 +4,7 @@
 ```php
 
     $app->get('/download', [
-        Zestic\Download\SecureDownloadMiddleware::class,
+        Zestic\Download\SecureDownloadsMiddleware::class,
     ]);
 ```
 
