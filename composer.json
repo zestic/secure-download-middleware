@@ -1,7 +1,7 @@
 {
-  "name": "zestic/secure-downloads-middleware",
+  "name": "zestic/secure-downloads",
   "type": "library",
-  "description": "Webonxy GraqhQL middleware",
+  "description": "Secure Downloads",
   "license": "MIT",
   "config": {
     "sort-packages": true
