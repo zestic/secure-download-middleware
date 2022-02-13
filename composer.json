@@ -2,13 +2,18 @@
   "name": "zestic/secure-downloads",
   "type": "library",
   "description": "Secure Downloads",
+  "keywords": [
+    "Secure",
+    "Download"
+  ],
   "license": "MIT",
   "config": {
     "sort-packages": true
   },
   "require": {
     "php": "^8.0",
-    "psr/http-server-middleware": "^1.0"
+    "psr/http-server-middleware": "^1.0",
+    "zestic/flysystem2-component": "^0.1.1"
   },
   "require-dev": {
     "codeception/codeception": "^4.0.0",
