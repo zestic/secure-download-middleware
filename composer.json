@@ -13,7 +13,7 @@
   "require": {
     "php": "^8.0",
     "psr/http-server-middleware": "^1.0",
-    "zestic/flysystem2-component": "^0.2.0"
+    "zestic/flysystem2-component": "^0.2 | ^0.3"
   },
   "require-dev": {
     "codeception/codeception": "^4.0.0",
